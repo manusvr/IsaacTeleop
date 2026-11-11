@@ -84,3 +84,9 @@ tmp/
 !/examples/mujoco_xr/python/isaacteleop_examples/mujoco_xr/assets/leader/leader_gripper.xml
 /examples/mujoco_xr/python/isaacteleop_examples/mujoco_xr/assets/follower/*
 !/examples/mujoco_xr/python/isaacteleop_examples/mujoco_xr/assets/follower/follower_arm.xml
+
+# Manus calibration captures (large, machine-specific)
+src/plugins/manus/calibration/step_*.npz
+src/plugins/manus/calibration/*.log
+src/plugins/manus/calibration/__pycache__/
+src/plugins/manus/calibration/offsets_result.txt

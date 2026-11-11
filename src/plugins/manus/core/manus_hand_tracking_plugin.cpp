@@ -125,10 +125,10 @@ std::vector<unsigned char> read_calibration_file(const std::string& path)
 
 } // anonymous namespace
 
-static constexpr XrPosef kLeftHandOffset = { { -0.744f, -0.445f, -0.282f, 0.411f },
-                                             { -0.072f, -0.001f, -0.003f } };
-static constexpr XrPosef kRightHandOffset = { { -0.744f, 0.445f, 0.282f, 0.411f },
-                                              { 0.072f, -0.001f, -0.003f } };
+static constexpr XrPosef kLeftHandOffset = { { -0.705f, -0.555f, -0.130f, 0.423f },
+                                             { -0.094f, 0.001f, 0.012f } };
+static constexpr XrPosef kRightHandOffset = { { -0.705f, 0.555f, 0.130f, 0.423f },
+                                              { 0.094f, 0.001f, 0.012f } };
 
 ManusTracker& ManusTracker::instance(const ManusPluginConfig& config) noexcept(false)
 {
